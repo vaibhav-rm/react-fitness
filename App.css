@@ -1,0 +1,177 @@
+/* Shared styles for both App and Home components */
+
+/* Header Section */
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header-title {
+  margin-top: 10px;
+}
+
+/* Welcome Section */
+.welcome-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.shared-text {
+  margin-bottom: 20px;
+}
+
+.shared-button {
+  margin-top: 20px;
+}
+
+/* Features Section */
+.features-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* Video Section */
+.video-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Statistics Section */
+.statistics-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.stats-item {
+  text-align: center;
+  margin: 0 20px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  text-align: center;
+  margin: 40px 0;
+  background-color: rgba(255, 255, 255, 0.612);
+}
+
+.testimonial-avatar {
+  margin: auto;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.newsletter-section form {
+  margin-top: 20px;
+}
+
+/* Call to Action Section */
+.cta-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+
+
+
+/* Footer Section */
+.footer {
+  background: linear-gradient(45deg, #000000 30%, #2575fc 90%);
+  color: white;
+  padding: 40px 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer-grid {
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  padding: 20px;
+}
+
+.footer-section h6 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-section a {
+  color: #ddd;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-section img {
+  margin-right: 10px;
+}
+
+.footer-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.footer-button {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ff4081;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer-button:hover {
+  background-color: #f50057;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.footer-bottom a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+}

@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Typography Styles */
+  .features-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 3rem;
+    margin-top:25;
+  }
+  
+  .features-description {
+    text-align: center;
+    margin-bottom: 4rem;
+    color: #555;
+  }
+  
+  /* Grid Styles */
+  .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  /* Card Styles */
+  .feature-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    filter: brightness(85%);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  .feature-card img:hover {
+    filter: brightness(100%);
+  }
+  
+  .feature-card-content {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .feature-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #333;
+  }
+  
+  .feature-card-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  

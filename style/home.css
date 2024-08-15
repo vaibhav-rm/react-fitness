@@ -1,0 +1,171 @@
+/* home.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ff0000;
+}
+
+header {
+  padding: 4rem 0;
+  text-align: center;
+  
+  color: #000000;
+}
+
+header img {
+  width: 210px;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-links .dropdown {
+  position: relative;
+}
+
+.navbar .nav-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar .nav-links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar .nav-links .dropdown-content a {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.navbar .cta-button {
+  background-color: #ff9800;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar .cta-button:hover {
+  background-color: #e68900;
+}
+
+.welcome-section {
+    
+  margin-bottom: 4rem;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.features-section, .testimonials-section, .cta-section {
+  padding: 4rem 2rem;
+}
+
+.features-section {
+  background-color: linear-gradient(rgb(116, 0, 211) ,rgb(4, 122, 154));
+  ;
+}
+
+.testimonials-section {
+  background-color: #ffffff;
+}
+
+.cta-section {
+  text-align: center;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.stats-section {
+  padding: 4rem 1rem;
+  background-color: #e0e0e0;
+  text-align: center;
+}
+
+.stats-section h4 {
+  margin-bottom: 2rem;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.stats-item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stats-item h5 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stats-item p {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.newsletter-section {
+  padding: 4rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.newsletter-section form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.newsletter-section input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.newsletter-section button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
